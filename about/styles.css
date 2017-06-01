@@ -1,0 +1,222 @@
+.logo-black {
+    content: url("../images/bent-creek-logo.png");
+    height: 40px;
+    width: 40px;
+    position: relative;
+    bottom: 2rem;
+    margin-left: 28px;
+}
+
+
+header {
+    box-shadow: 0 5px 6px -6px #222;
+    max-height: 1rem;
+    position: fixed;
+    padding-right: 33.5rem;
+    padding-top: 3rem;
+    background-color: #FFFFFF;
+    z-index: 1;
+    top:0;
+}
+
+    ul {
+  display:flex; 
+  flex-direction: row; 
+  list-style: none;
+  justify-content: center;
+  position: relative;
+  bottom: 7rem;
+  margin-left: 29rem;
+  background-color: #FFFFFF;
+  }
+
+
+   .row-item :hover {
+    color: #CD5D67;
+    transition-duration: .5s;
+}
+
+    .row-item :active {
+        color: #968772;
+    }
+    
+    
+
+    .row-item {
+        padding-top: 30px;
+        text-transform: uppercase;
+        font-family: "Roboto";
+        font-size: 16px;
+    }
+
+    .one {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 30px;
+        text-transform: uppercase;
+        color: #2B2F26;
+        font-family: "Roboto";
+        font-size: larger;
+    }
+
+    .two {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 30px;
+        text-transform: uppercase;
+        color: #968772;
+        font-family: "Roboto";
+        font-size: larger;
+    }
+
+
+    .three {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 30px;
+        text-transform: uppercase;
+        color: #2B2F26;
+        font-family: "Roboto";
+        font-size: larger;
+    }
+
+    main {
+        color:#131511;
+        background-color: #F2F1E8;
+        position: relative;
+        top: -.9rem;
+        padding-bottom: 4rem;
+
+    }
+
+    .main-header {
+    padding-top: 38px;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'merriweather';
+}
+
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+    margin-left:16.9rem;
+    margin-right:16.9rem;
+    line-height: 45px;
+    font-family: "merriweather";
+    font-size: 19px;
+}
+
+.paragraphs-two {
+    display: flex;
+    flex-direction: column;
+    margin-left:16.9rem;
+    margin-right:16.9rem;
+    line-height: 45px;
+    font-family: "merriweather";
+    font-size: 19px;
+}
+
+.plus-aside {
+    display:flex;
+    
+}
+
+.aside-pic {
+    content: url("../images/background-1.jpg");
+    height: 175px;
+    width: 175px;
+    margin-top: 70px;
+
+}
+
+.aside {
+    font-size: 14px;
+    line-height: 21px;
+    padding-right: 2px;
+    font-weight: lighter;
+    
+}
+
+.aside-paragraph {
+    margin-left: 40px;
+    margin-right: -100px;
+    padding-right: 7px;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+.facility {
+    color: #968772;
+}
+
+.facility:hover {
+    color:  #967343;
+    transition-duration: .5s;
+}
+
+.room {
+    color: white;
+    text-align: center;
+    font-size: 6rem;
+    position: relative fixed;
+    top: 2rem;
+}
+
+.background {
+    background-image: url("../images/background-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 4rem;
+    padding-top: 1rem;
+    background-position: 50% 25%;
+    background-attachment: fixed;
+}
+
+blockquote {
+    border-left: 2.3px solid #968772;
+    padding-left: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #131511;
+}
+
+
+.birdhouse {
+    content: url("../images/birdhouse.jpg");
+    float: left;
+    width: 110x;
+    height: 100px;
+    margin-right: 2rem;
+    margin-bottom: 0rem;
+    position: relative;
+    top: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    border: 1.5px solid black;
+    padding: 14px;
+    padding-right: 50px;
+}
+
+.contrast {
+    background-color: 	#FDF5E6;
+}
+footer {
+    background-color: #333333;
+    color: white;
+    font-size: 21px;
+    padding:15px;
+    padding-left: 50px;
+    margin-top: -1rem;
+}
+
+
+
+
+    

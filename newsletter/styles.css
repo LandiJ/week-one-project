@@ -1,0 +1,177 @@
+
+
+
+.logo-black {
+    content: url("../images/bent-creek-logo.png");
+    height: 40px;
+    width: 40px;
+    position: relative;
+    bottom: 2rem;
+    margin-left: 28px;
+}
+
+
+header {
+    box-shadow: 0 6px 6px -6px #222;
+    max-height: 1rem;
+    position: fixed;
+    padding-right: 33.5rem;
+    padding-top: 3rem;
+    background-color: #FFFFFF;
+    z-index: 1;
+    top:0;
+}
+
+    ul {
+  display:flex; 
+  flex-direction: row; 
+  list-style: none;
+  justify-content: center;
+  position: relative;
+  bottom: 7rem;
+  margin-left: 29rem;
+  background-color: #FFFFFF;
+  }
+
+
+   .row-item :hover {
+    color: #CD5D67;
+    transition-duration: .5s;
+}
+
+    .row-item :active {
+        color: #968772;
+    }
+    
+    
+
+    .row-item {
+        padding-top: 30px;
+        text-transform: uppercase;
+        font-family: "Roboto";
+        font-size: 16px;
+    }
+
+    .one {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 30px;
+        text-transform: uppercase;
+        color: #2B2F26;
+        font-family: "Roboto";
+        font-size: larger;
+    }
+
+    .two {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 30px;
+        text-transform: uppercase;
+        color: #2B2F26;
+        font-family: "Roboto";
+        font-size: larger;
+    }
+
+
+    .three {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 30px;
+        text-transform: uppercase;
+        color: #968772;
+        font-family: "Roboto";
+        font-size: larger;
+    }
+
+    main {
+        background: url("../images/background-2.jpg") no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        position: relative;
+        top: -1rem;
+        padding-bottom: 4rem;
+
+    }
+
+    .sign-up {
+    background-color: white;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    position: relative;
+    text-align: center;
+    top: 8.5rem;
+    padding-top:30px;
+    padding-bottom: 50px;
+    }
+
+    h2 {
+        font-size: 35px;
+        font-family: "merriweather";
+        font-weight: lighter;
+    }
+
+    h4 {
+        font-size: 23px;
+        font-family: "merriweather";
+        font-weight:normal;
+    }
+
+    
+#nameInput {
+    margin-bottom: 1px;
+    padding: 3rem 28rem 0rem 0rem;
+    font-family: "merriweather";
+    font-size: 21px;
+    font-weight:lighter;
+    border-bottom: 2.4px solid #968772;
+    border-left: white;
+    border-top: white;
+    border-right: white;
+   
+    
+}
+
+
+#emailInput {
+    margin-bottom: 31px;
+    padding: 3rem 28rem 0rem 0rem;
+    font-family: "merriweather";
+    font-size: 21px;
+    font-weight:lighter;
+    border-bottom: 2.4px solid #968772;
+    border-left: white;
+    border-top: white;
+    border-right: white;
+}
+
+input:focus {
+    border-bottom: 2.4px solid #967343 !important;
+    outline: none;
+    transition-duration: .5s;
+}
+
+#signupButton {
+    background-color: #968772;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    color: #F2F1E8;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+#signupButton:hover {
+    background-color: #967343;
+    color: white;
+    transition-duration: .5s;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    font-size: 21px;
+    padding:15px;
+    padding-left: 50px;
+    margin-top: -1rem;
+}
+
+
